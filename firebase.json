@@ -8,10 +8,6 @@
     ],
     "rewrites": [
       {
-        "source": "/",
-        "destination": "/it/index.html"
-      },
-      {
         "source": "/en{,/**}",
         "destination": "/en/index.html"
       },
