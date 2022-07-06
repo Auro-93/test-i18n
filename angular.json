@@ -122,8 +122,7 @@
         "locales": {
           "en": "src/locale/messages.en.xlf",
           "it": "src/locale/messages.it.xlf"
-        },
-        "sourceLocale": "en-US"
+        }
       }
     }
   },

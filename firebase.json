@@ -12,10 +12,10 @@
         "destination": "/en/index.html"
       },
       {
-        "source": "/it{,/**}"
-        ,
+        "source": "/it{,/**}",
         "destination": "/it/index.html"
       }
     ]
   }
 }
+
