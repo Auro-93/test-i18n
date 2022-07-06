@@ -120,9 +120,10 @@
       },
       "i18n": {
         "locales": {
-          "it": "src/locale/messages.it.xlf",
-          "en": "src/locale/messages.en.xlf"
-        }
+          "en": "src/locale/messages.en.xlf",
+          "it": "src/locale/messages.it.xlf"
+        },
+        "sourceLocale": "en-US"
       }
     }
   },
