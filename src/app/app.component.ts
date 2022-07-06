@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 
-  siteLanguage: string;
+  siteLanguage: string = "Italian";
   siteLocale: string;
   languageList = [
     { code: 'en', label: 'English' },
