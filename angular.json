@@ -29,6 +29,12 @@
             "scripts": []
           },
           "configurations": {
+            "en": {
+              "localize": ["en"]
+            },
+            "it": {
+              "localize": ["it"]
+            },
             "production": {
               "budgets": [
                 {
@@ -67,6 +73,12 @@
             "production": {
               "browserTarget": "test-i18n:build:production"
             },
+            "en": {
+              "browserTarget": "test-i18n:build:en"
+            },
+            "it": {
+              "browserTarget": "test-i18n:build:it"
+            },
             "development": {
               "browserTarget": "test-i18n:build:development"
             }
@@ -100,10 +112,16 @@
         "t9n": {
           "builder": "angular-t9n:t9n",
           "options": {
-            "translationFile": "messages.xlf",
-            "targetTranslationPath": "src/locales",
+            "translationFile": "src/locale/messages.xlf",
+            "targetTranslationPath": "src/locale",
             "includeContextInTarget": true
           }
+        }
+      },
+      "i18n": {
+        "locales": {
+          "it": "src/locale/messages.it.xlf",
+          "en": "src/locale/messages.en.xlf"
         }
       }
     }

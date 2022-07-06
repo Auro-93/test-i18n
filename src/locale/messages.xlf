@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="6961678319213940805" datatype="html">
+        <source>Angular Internationalization</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6458078885745023018" datatype="html">
+        <source> Internationalization, sometimes referenced as i18n, is the process of designing and preparing your project for use in different locales around the world. Localization is the process of building versions of your project for different locales. The localization process includes the following actions. Extract text for translation into different languages Format data for a specific locale A locale identifies a region in which people speak a particular language or language variant. Possible regions includes countries and geographical regions. A locale determines the formatting and parsing of the following details. Measurement units including date and time, numbers, and currencies Translated names including time zones, languages, and countries </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">18,30</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
