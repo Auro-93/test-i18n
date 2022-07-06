@@ -13,7 +13,12 @@ export class AppComponent implements OnInit {
     { code: 'en', label: 'English' },
     { code: 'it', label: 'Italian' }
   ];
-  constructor() { }
+  constructor() { 
+    this.siteLocale = window.location.pathname.split('/');
+    this.siteLocale = this.siteLocale[this.siteLocale.length - 2];
+  
+    this.siteLanguage = this.languageList.find(f => f.code === this.siteLocale)?.label;
+  }
   ngOnInit() {
   this.siteLocale = window.location.pathname.split('/');
   this.siteLocale = this.siteLocale[this.siteLocale.length - 2];
