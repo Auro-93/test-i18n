@@ -8,6 +8,10 @@
     ],
     "rewrites": [
       {
+        "source": "/",
+        "destination": "/it/index.html"
+      },
+      {
         "source": "/en{,/**}",
         "destination": "/en/index.html"
       },
@@ -15,7 +19,10 @@
         "source": "/it{,/**}",
         "destination": "/it/index.html"
       }
-    ]
+    ],
+    "i18n": {
+      "root": "/"  
+    }
   }
 }
 
